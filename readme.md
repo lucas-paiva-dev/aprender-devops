@@ -1,1 +1,1 @@
-#aprender devops com fé em Deus
+#aprender devops 1 dia.
