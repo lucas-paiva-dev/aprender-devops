@@ -1,1 +1,1 @@
-#aprender devops
+#aprender devops com fé em Deus
