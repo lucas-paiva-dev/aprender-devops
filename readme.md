@@ -1,1 +1,2 @@
-#aprender devops 2 dia 
+#aprendendo devops 
+meus primeiros comandos
