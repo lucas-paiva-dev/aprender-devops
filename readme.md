@@ -1,1 +1,1 @@
-#aprender devops 1 dia.
+#aprender devops 1 dia para mudar de vida.
