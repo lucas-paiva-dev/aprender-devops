@@ -1,0 +1,37 @@
+java
+package com.seugrupo;
+
+// Classe
+public class Calculadora {
+
+    private int valorInicial;
+    private int valorFinal;
+    private int resultado;
+
+    // Método para soma
+    public int operacaoSoma(int valorInicial, int valorFinal) {
+        return valorInicial + valorFinal;
+    }
+
+    // Método para subtração
+    public int operacaoSubtrair(int valorInicial, int valorFinal) {
+        return valorInicial - valorFinal;
+    }
+
+    // Método para multiplicação
+    public double operacaoMultiplicar(double valorInicial, double valorFinal) {
+        return valorInicial * valorFinal;
+    }
+
+    // Método para divisão
+    public double operacaoDivisao(double valorInicial, double valorFinal) {
+        if (valorFinal == 0) {
+            return inverterDivisor(valorInicial, valorFinal);
+        }
+        return valorInicial / valorFinal;
+    }
+
+    // Método para inverter o divisor
+    private double inverterDivisor(double valorInicial, double valorFinal) {
+        // Aqui, apenas como um exemplo, retornamos o valorInicial. 
+        // A lógica pode ser ajustada conforme necessário.
